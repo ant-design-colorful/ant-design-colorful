@@ -1,16 +1,18 @@
 import { defineConfig } from 'dumi';
-import theme from './public/theme';
 
 export default defineConfig({
   title: 'ant-design-colorful',
   mode: 'site',
   favicon: '/images/logo.png',
   logo: '/images/logo.png',
-  outputPath: 'docs-dist',
+  outputPath: 'dist',
+  publicPath: './ant-design-colorful/',
   resolve: {
     includes: ['docs'],
   },
-  theme,
+  theme: {
+    '@c-primary': '#72a2de',
+  },
   menus: {
     '/guide': [
       {
