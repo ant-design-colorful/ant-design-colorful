@@ -1,5 +1,5 @@
 /**
- * desc: 更加多彩的背景色
+ * desc: 多彩的背景色
  */
 
 import React from 'react';

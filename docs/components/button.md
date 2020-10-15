@@ -8,4 +8,4 @@ title: Button 按钮
 
 ### 多彩背景
 
-<code src="../../components/button/background.tsx" />
+<code src="../../packages/button/background.tsx" />

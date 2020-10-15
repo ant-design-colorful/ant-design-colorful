@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "dumi dev",
+    "build": "father-build",
     "docs:build": "dumi build",
     "docs:deploy": "gh-pages -d docs-dist",
     "deploy": "npm run docs:build && npm run docs:deploy",
@@ -43,6 +44,7 @@
     "stylelint-config-standard": "^20.0.0",
     "stylelint-declaration-block-no-ignored-properties": "^2.1.0",
     "stylelint-order": "^4.0.0",
+    "umi-plugin-gh-pages": "0.x",
     "yorkie": "^2.0.0"
   }
 }

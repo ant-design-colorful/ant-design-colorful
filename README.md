@@ -1,6 +1,13 @@
+<p align="center">
+  <a href="http://xrkffgg.js.cool/ant-design-colorful/">
+    <img width="200" src="https://github.com/xrkffgg/ant-design-colorful/blob/main/logo.png">
+  </a>
+</p>
+
 <h1 align="center">ant-design-color</h1>
 
 <div align="center">
+
 以 ant-design 为基础衍生的多彩组件
 
 [![](https://img.shields.io/badge/based%20on-ant--design-%231890ff?style=flat-square)](https://github.com/ant-design/ant-design)

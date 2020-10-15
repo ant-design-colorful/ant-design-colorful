@@ -1,12 +1,11 @@
-import { defineConfig } from 'dumi';
-
-export default defineConfig({
+export default {
   title: 'ant-design-colorful',
   mode: 'site',
-  favicon: '/images/logo.png',
-  logo: '/images/logo.png',
-  outputPath: 'dist',
-  publicPath: './ant-design-colorful/',
+  favicon: 'https://github.com/xrkffgg/ant-design-colorful/blob/main/logo.png',
+  logo: 'https://github.com/xrkffgg/ant-design-colorful/blob/main/logo.png',
+  outputPath: 'docs-dist',
+  base: '/ant-design-colorful/',
+  publicPath: '/ant-design-colorful/',
   resolve: {
     includes: ['docs'],
   },
@@ -41,4 +40,4 @@ export default defineConfig({
       },
     ],
   ],
-});
+};
