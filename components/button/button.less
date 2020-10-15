@@ -1,0 +1,55 @@
+.ant-btn {
+  &.antd-colorful {
+    color: rgba(0, 0, 0, 0.85);
+    border: 0;
+
+    &::before {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      display: block;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(
+        to left,
+        rgba(255, 255, 255, 0) 50%,
+        rgba(255, 255, 255, 0.4) 50%
+      );
+      background-position: right bottom;
+      background-size: 210% 100%;
+      transition: all 0.3s;
+      content: '';
+    }
+
+    &:hover::before,
+    &:focus::before {
+      background-position: left bottom;
+    }
+
+    &.btn-color-spring {
+      background: linear-gradient(45deg, #72de7a 30%, #34abbf 90%);
+      border-color: #72de7a;
+      box-shadow: 0 3px 5px 2px #69ff8936;
+    }
+
+    &.btn-color-summer {
+      background: linear-gradient(45deg, #72a2de 30%, #60d8ec 90%);
+      border-color: #72a2de;
+      box-shadow: 0 3px 5px 2px #69baff4d;
+    }
+
+    &.btn-color-autumn {
+      background: linear-gradient(45deg, #f3b037 30%, #de8556 90%);
+      border-color: #f3b037;
+      box-shadow: 0 3px 5px 2px #d8b32e4d;
+    }
+
+    &.btn-color-winter {
+      background: linear-gradient(45deg, #d4a7b1 30%, #ece8e5 90%);
+      border-color: #d4a7b1;
+      box-shadow: 0 3px 5px 2px #d676894d;
+    }
+  }
+}
