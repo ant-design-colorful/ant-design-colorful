@@ -1,8 +1,8 @@
 export default {
   title: 'ant-design-colorful',
   mode: 'site',
-  favicon: 'https://github.com/xrkffgg/ant-design-colorful/blob/main/logo.png',
-  logo: 'https://github.com/xrkffgg/ant-design-colorful/blob/main/logo.png',
+  favicon: 'https://github.com/xrkffgg/ant-design-colorful/raw/main/logo.png',
+  logo: 'https://github.com/xrkffgg/ant-design-colorful/raw/main/logo.png',
   outputPath: 'docs-dist',
   base: '/ant-design-colorful/',
   publicPath: '/ant-design-colorful/',
