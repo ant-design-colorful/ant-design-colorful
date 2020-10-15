@@ -10,7 +10,7 @@ hero:
 features:
   - icon: https://gw.alipayobjects.com/os/q/cms/images/k9ziitmp/13668549-b393-42a2-97c3-a6365ba87ac2_w96_h96.png
     title: 简单易用
-    desc: 在 Ant Design 基础上进行封装
+    desc: 在 Ant Design 基础上进行封装，直接拿来就可以用
   - icon: https://gw.alipayobjects.com/os/q/cms/images/k9ziik0f/487a2685-8f68-4c34-824f-e34c171d0dfd_w96_h96.png
     title: Ant Design
     desc: 与 Ant Design 写法保持一致
@@ -22,7 +22,7 @@ footer: Open-source MIT Licensed | Copyright © 2019-present<br />Powered by xrk
 
 ## 📍 使用
 
-🌈 以原生 ant-design 为基础，通过自定义 css 或 引入其他插件，实现组件的炫酷化、多彩化。
+以原生 ant-design 为基础，通过自定义 css 或 引入其他插件，实现组件的炫酷化、多彩化。
 
 ## 📐 组件看板
 

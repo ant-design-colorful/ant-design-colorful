@@ -12,5 +12,8 @@ jobs:
       - name: install
         run: yarn install
 
+      - name: lint
+        run: yarn lint:style
+
       - name: build
         run: yarn docs:build
