@@ -15,7 +15,6 @@
 [![](https://img.shields.io/github/contributors/xrkffgg/ant-design-colorful?style=flat-square)](https://github.com/xrkffgg/ant-design-colorful/graphs/contributors)
 ![](https://img.shields.io/github/last-commit/xrkffgg/ant-design-colorful?color=%2308979c&style=flat-square)
 ![](https://img.shields.io/github/stars/xrkffgg/ant-design-colorful?style=flat-square)
-[![HitCount](http://hits.dwyl.com/xrkffgg/ant-design-colorful.svg)](http://hits.dwyl.com/xrkffgg/ant-design-colorful)
 
 </div>
 
