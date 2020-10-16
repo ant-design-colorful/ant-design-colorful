@@ -38,6 +38,8 @@ https://xrkffgg.github.io/ant-design-colorful/
 
 - 通用
   - Button
+    - 多彩背景
+    - Text 增强
 
 ## 🖥 兼容环境
 
