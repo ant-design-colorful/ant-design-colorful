@@ -14,10 +14,6 @@
     "test": "umi-test",
     "test:coverage": "umi-test --coverage"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xrkffgg/ant-design-colorful#main"
-  },
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",
