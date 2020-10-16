@@ -6,7 +6,7 @@ hero:
   desc: 🌈 以 ant-design 为基础衍生的多彩组件
   actions:
     - text: 快速开始 →
-      link: /guide/
+      link: /guide/how-to-use
 features:
   - icon: https://gw.alipayobjects.com/os/q/cms/images/k9ziitmp/13668549-b393-42a2-97c3-a6365ba87ac2_w96_h96.png
     title: 简单易用
@@ -26,6 +26,8 @@ footer: Open-source MIT Licensed | Copyright © 2019-present<br />Powered by xrk
 
 ## 📐 组件看板
 
+正逐步构想并添加，如果你有好的想法建议，欢迎 PR ~
+
 - 通用
   - Button
 
@@ -34,9 +36,9 @@ footer: Open-source MIT Licensed | Copyright © 2019-present<br />Powered by xrk
 - 现代浏览器和 Internet Explorer 11 (with [polyfills](https://stackoverflow.com/questions/57020976/polyfills-in-2019-for-ie11))
 - [Electron](https://www.electronjs.org/)
 
-| [![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png)](http://godban.github.io/browsers-support-badges/)<br>IE / Edge | [![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png)](http://godban.github.io/browsers-support-badges/)<br>Firefox | [![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png)](http://godban.github.io/browsers-support-badges/)<br>Chrome | [![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png)](http://godban.github.io/browsers-support-badges/)<br>Safari | [![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/electron/electron_48x48.png)](http://godban.github.io/browsers-support-badges/)<br>Electron |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| IE11, Edge                                                                                                                                                 | last 2 versions                                                                                                                                                | last 2 versions                                                                                                                                             | last 2 versions                                                                                                                                             | last 2 versions                                                                                                                                                   |
+| ![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png)<br>IE / Edge | ![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png)<br>Firefox | ![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png)<br>Chrome | ![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png)<br>Safari | ![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/electron/electron_48x48.png)<br>Electron |
+| ------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| IE11, Edge                                                                                             | last 2 versions                                                                                            | last 2 versions                                                                                         | last 2 versions                                                                                         | last 2 versions                                                                                               |
 
 ## ⚡ 反馈
 

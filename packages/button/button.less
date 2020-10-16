@@ -1,9 +1,11 @@
+// btn 通用样式
 .antd-colorful {
   &.ant-btn {
     color: rgba(0, 0, 0, 0.85);
     border: 0;
-
-    &::before {
+    // btn 交互效果
+    // btn hover
+    &.btn-hover::before {
       position: absolute;
       top: 0;
       right: 0;
@@ -23,33 +25,25 @@
       content: '';
     }
 
-    &:hover::before,
-    &:focus::before {
+    &.btn-hover:hover::before,
+    &.btn-hover:focus::before {
       background-position: left bottom;
     }
 
-    &.btn-color-spring {
-      background: linear-gradient(45deg, #72de7a 30%, #34abbf 90%);
-      border-color: #72de7a;
-      box-shadow: 0 3px 5px 2px #69ff8936;
+    // btn-up
+    &.btn-up::after {
+      position: absolute;
+      top: 60%;
+      right: -0.1em;
+      bottom: 0;
+      left: -0.1em;
+      z-index: -1;
+      transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
+      content: '';
     }
 
-    &.btn-color-summer {
-      background: linear-gradient(45deg, #72a2de 30%, #60d8ec 90%);
-      border-color: #72a2de;
-      box-shadow: 0 3px 5px 2px #69baff4d;
-    }
-
-    &.btn-color-autumn {
-      background: linear-gradient(45deg, #f3b037 30%, #de8556 90%);
-      border-color: #f3b037;
-      box-shadow: 0 3px 5px 2px #d8b32e4d;
-    }
-
-    &.btn-color-winter {
-      background: linear-gradient(45deg, #d4a7b1 30%, #ece8e5 90%);
-      border-color: #d4a7b1;
-      box-shadow: 0 3px 5px 2px #d676894d;
+    &.btn-up:hover::after {
+      top: 0;
     }
   }
 }

@@ -4,6 +4,7 @@ export default {
   favicon: 'https://github.com/xrkffgg/ant-design-colorful/raw/main/logo.png',
   logo: 'https://github.com/xrkffgg/ant-design-colorful/raw/main/logo.png',
   outputPath: 'docs-dist',
+  hash: true,
   base: '/ant-design-colorful/',
   publicPath: '/ant-design-colorful/',
   resolve: {

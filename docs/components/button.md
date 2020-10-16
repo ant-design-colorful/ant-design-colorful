@@ -9,3 +9,7 @@ title: Button 按钮
 ### 多彩背景
 
 <code src="../../packages/button/background.tsx" />
+
+### Text 增强
+
+<code src="../../packages/button/text.tsx" />
