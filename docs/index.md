@@ -17,7 +17,7 @@ features:
   - icon: https://gw.alipayobjects.com/mdn/rms_05efff/afts/img/A*-3XMTrwP85wAAAAAAAAAAABkARQnAQ
     title: 绚丽多彩
     desc: 多姿多彩，点亮生活
-footer: Open-source MIT Licensed | Copyright © 2019-present<br />Powered by xrkffgg
+footer: Open-source MIT Licensed | Copyright © 2020-present<br />Powered by xrkffgg
 ---
 
 ## 📍 使用
