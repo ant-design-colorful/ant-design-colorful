@@ -10,6 +10,18 @@ title: Button 按钮
 
 <code src="../../packages/button/background.tsx" />
 
-### Text 增强
+### 涟漪效果
+
+<code src="../../packages/button/ripple.tsx" />
+
+### 多彩文字
 
 <code src="../../packages/button/text.tsx" />
+
+### 键盘按键
+
+<code src="../../packages/button/keyboard.tsx" />
+
+### 图标动画
+
+<code src="../../packages/button/icon.tsx" />

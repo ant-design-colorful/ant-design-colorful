@@ -1,5 +1,5 @@
 /**
- * desc: 多彩的文字增加
+ * desc: 多彩的文字显示。
  */
 
 import React from 'react';
