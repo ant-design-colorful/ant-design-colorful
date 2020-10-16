@@ -34,6 +34,8 @@ https://xrkffgg.github.io/ant-design-colorful/
 
 ## 📐 组件看板
 
+正逐步构想并添加，如果你有好的想法建议，欢迎 PR ~
+
 - 通用
   - Button
 
