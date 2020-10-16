@@ -1,0 +1,138 @@
+// Demo 样式
+.antd-colorful.ant-btn {
+  &.icon-right:hover {
+    .anticon {
+      animation: iconright 1s ease-in-out infinite;
+      animation-iteration-count: 1;
+    }
+  }
+
+  &.icon-left:hover {
+    .anticon {
+      animation: iconleft 1s ease-in-out infinite;
+      animation-iteration-count: 1;
+    }
+  }
+
+  &.icon-up:hover {
+    .anticon {
+      animation: iconup 1s ease-in-out infinite;
+      animation-iteration-count: 1;
+    }
+  }
+
+  &.icon-down:hover {
+    .anticon {
+      animation: icondown 1s ease-in-out infinite;
+      animation-iteration-count: 1;
+    }
+  }
+
+  &.icon-grow:hover {
+    .anticon {
+      animation: icongrow 0.3s linear infinite alternate;
+    }
+  }
+
+  &.icon-shrink:hover {
+    .anticon {
+      animation: iconshrink 0.3s linear infinite alternate;
+    }
+  }
+
+  @keyframes iconright {
+    16.65% {
+      transform: translateX(6px);
+    }
+    33.3% {
+      transform: translateX(-5px);
+    }
+    49.95% {
+      transform: translateX(4px);
+    }
+    66.6% {
+      transform: translateX(-2px);
+    }
+    83.25% {
+      transform: translateX(1px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes iconleft {
+    16.65% {
+      transform: translateX(-6px);
+    }
+    33.3% {
+      transform: translateX(5px);
+    }
+    49.95% {
+      transform: translateX(-4px);
+    }
+    66.6% {
+      transform: translateX(2px);
+    }
+    83.25% {
+      transform: translateX(-1px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes iconup {
+    16.65% {
+      transform: translateY(6px);
+    }
+    33.3% {
+      transform: translateY(-5px);
+    }
+    49.95% {
+      transform: translateY(4px);
+    }
+    66.6% {
+      transform: translateY(-2px);
+    }
+    83.25% {
+      transform: translateY(1px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes icondown {
+    16.65% {
+      transform: translateY(-6px);
+    }
+    33.3% {
+      transform: translateY(5px);
+    }
+    49.95% {
+      transform: translateY(-4px);
+    }
+    66.6% {
+      transform: translateY(2px);
+    }
+    83.25% {
+      transform: translateY(-1px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes icongrow {
+    to {
+      transform: scale(1.4);
+    }
+  }
+
+  @keyframes iconshrink {
+    to {
+      transform: scale(0.6);
+    }
+  }
+}

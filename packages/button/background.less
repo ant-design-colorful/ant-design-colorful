@@ -2,25 +2,49 @@
 .antd-colorful.ant-btn {
   &.btn-bg-spring {
     background: linear-gradient(45deg, #72de7a 30%, #34abbf 90%);
+    border: 0;
     border-color: #72de7a;
     box-shadow: 0 3px 5px 2px #69ff8936;
   }
 
   &.btn-bg-summer {
     background: linear-gradient(45deg, #72a2de 30%, #60d8ec 90%);
+    border: 0;
     border-color: #72a2de;
     box-shadow: 0 3px 5px 2px #69baff4d;
   }
 
   &.btn-bg-autumn {
     background: linear-gradient(45deg, #f3b037 30%, #de8556 90%);
+    border: 0;
     border-color: #f3b037;
     box-shadow: 0 3px 5px 2px #d8b32e4d;
   }
 
   &.btn-bg-winter {
     background: linear-gradient(45deg, #d4a7b1 30%, #ece8e5 90%);
+    border: 0;
     border-color: #d4a7b1;
     box-shadow: 0 3px 5px 2px #d676894d;
+  }
+
+  &.btn-bg-season {
+    background: linear-gradient(45deg, #72de7a 30%, #34abbf 90%);
+    border: 0;
+    border-color: #72de7a;
+    box-shadow: 0 3px 5px 2px #69ff8936;
+  }
+
+  &.btn-bg-season:hover {
+    animation: pulse 4s linear infinite;
+  }
+
+  @keyframes pulse {
+    from {
+      filter: hue-rotate(0);
+    }
+    to {
+      filter: hue-rotate(360deg);
+    }
   }
 }

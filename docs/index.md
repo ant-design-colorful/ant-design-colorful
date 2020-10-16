@@ -31,7 +31,10 @@ footer: Open-source MIT Licensed | Copyright © 2019-present<br />Powered by xrk
 - 通用
   - Button
     - 多彩背景
-    - Text 增强
+    - 涟漪效果
+    - 多彩文字
+    - 键盘按键
+    - 图标动画
 
 ## 🖥 浏览器兼容性
 

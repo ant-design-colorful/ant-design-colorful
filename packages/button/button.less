@@ -2,32 +2,64 @@
 .antd-colorful {
   &.ant-btn {
     color: rgba(0, 0, 0, 0.85);
-    border: 0;
+    background: transparent;
+
     // btn 交互效果
-    // btn hover
-    &.btn-hover::before {
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      display: block;
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(
-        to left,
-        rgba(255, 255, 255, 0) 50%,
-        rgba(255, 255, 255, 0.4) 50%
-      );
-      background-position: right bottom;
-      background-size: 210% 100%;
-      transition: all 0.3s;
-      content: '';
+    // btn hover sweep
+    &.btn-hover-sweep {
+      position: relative;
+      display: inline-block;
+      vertical-align: middle;
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      transform: perspective(1px) translateZ(0);
+      transition: color 0.3s;
+
+      &::before {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        display: block;
+        background: rgba(255, 255, 255, 0.4);
+        transform: scaleX(0);
+        transform-origin: 0 50%;
+        transition: transform 0.3s ease-out;
+        content: '';
+      }
+
+      &.sweep-to-right::before {
+        transform-origin: 0 50%;
+      }
+
+      &.sweep-to-left::before {
+        transform-origin: 100% 50%;
+      }
+
+      &.sweep-to-bottom {
+        &::before {
+          transform: scaleY(0);
+          transform-origin: 50% 0;
+        }
+        &:hover::before {
+          transform: scaleY(1);
+        }
+      }
+
+      &.sweep-to-top {
+        &::before {
+          transform: scaleY(0);
+          transform-origin: 50% 100%;
+        }
+        &:hover::before {
+          transform: scaleY(1);
+        }
+      }
     }
 
-    &.btn-hover:hover::before,
-    &.btn-hover:focus::before {
-      background-position: left bottom;
+    &.btn-hover-sweep:hover::before {
+      transform: scaleX(1);
     }
 
     // btn-up
@@ -44,6 +76,25 @@
 
     &.btn-up:hover::after {
       top: 0;
+    }
+
+    // btn-key
+    &.btn-key {
+      border: 0;
+      border-bottom: 4px solid rgba(0, 0, 0, 0.15);
+      border-radius: 6px;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2), 0 2px 2px rgba(0, 0, 0, 0.14),
+        0 3px 1px -2px rgba(0, 0, 0, 0.12);
+      transition: top 0.4s cubic-bezier(0.25, 0.8, 0.5, 1),
+        bottom 0.4s cubic-bezier(0.25, 0.8, 0.5, 1),
+        border-bottom-width 0.4s cubic-bezier(0.25, 0.8, 0.5, 1);
+      &:active {
+        border-bottom-width: 0;
+        transform: translateY(1px);
+      }
+      &[ant-click-animating-without-extra-node='true']::after {
+        opacity: 0;
+      }
     }
   }
 }

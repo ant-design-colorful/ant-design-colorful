@@ -14,8 +14,5 @@
     "no-invalid-double-slash-comments": null,
     "no-descending-specificity": null,
     "declaration-empty-line-before": null
-  },
-  "ignoreFiles": [
-    "components/style/color/{bezierEasing,colorPalette,tinyColor}.less"
-  ]
+  }
 }
