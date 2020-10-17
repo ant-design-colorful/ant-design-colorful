@@ -10,10 +10,10 @@ hero:
 features:
   - icon: https://gw.alipayobjects.com/os/q/cms/images/k9ziitmp/13668549-b393-42a2-97c3-a6365ba87ac2_w96_h96.png
     title: 简单易用
-    desc: 在 Ant Design 基础上进行封装，直接拿来就可以用
+    desc: 在 ant-design 基础上进行封装，直接拿来就可以用
   - icon: https://gw.alipayobjects.com/os/q/cms/images/k9ziik0f/487a2685-8f68-4c34-824f-e34c171d0dfd_w96_h96.png
     title: Ant Design
-    desc: 与 Ant Design 写法保持一致
+    desc: 与 ant-design 写法保持一致
   - icon: https://gw.alipayobjects.com/mdn/rms_05efff/afts/img/A*-3XMTrwP85wAAAAAAAAAAABkARQnAQ
     title: 绚丽多彩
     desc: 多姿多彩，点亮生活
