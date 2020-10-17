@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="http://xrkffgg.js.cool/ant-design-colorful/">
-    <img width="200" src="https://github.com/xrkffgg/ant-design-colorful/blob/main/logo.png?raw=true">
+  <a href="https://ant-design-colorful.github.io/ant-design-colorful/">
+    <img width="200" src="https://avatars1.githubusercontent.com/u/73024040?s=200&v=4">
   </a>
 </p>
 
@@ -12,15 +12,15 @@
 
 [![](https://img.shields.io/badge/based%20on-ant--design-%231890ff?style=flat-square)](https://github.com/ant-design/ant-design)
 [![](https://img.shields.io/badge/docs%20by-dumi-%239254de?style=flat-square)](https://github.com/umijs/dumi)
-[![](https://img.shields.io/github/contributors/xrkffgg/ant-design-colorful?style=flat-square)](https://github.com/xrkffgg/ant-design-colorful/graphs/contributors)
-![](https://img.shields.io/github/last-commit/xrkffgg/ant-design-colorful?color=%2308979c&style=flat-square)
-![](https://img.shields.io/github/stars/xrkffgg/ant-design-colorful?style=flat-square)
+[![](https://img.shields.io/github/contributors/ant-design-colorful/ant-design-colorful?style=flat-square)](https://github.com/ant-design-colorful/ant-design-colorful/graphs/contributors)
+![](https://img.shields.io/github/last-commit/ant-design-colorful/ant-design-colorful?color=%2308979c&style=flat-square)
+![](https://img.shields.io/github/stars/ant-design-colorful/ant-design-colorful?style=flat-square)
 
 </div>
 
 ## 📒 网站
 
-https://xrkffgg.github.io/ant-design-colorful/
+https://ant-design-colorful.github.io/ant-design-colorful/
 
 ## ✨ 特性
 

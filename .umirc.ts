@@ -1,8 +1,8 @@
 export default {
   title: 'ant-design-colorful',
   mode: 'site',
-  favicon: 'https://github.com/xrkffgg/ant-design-colorful/raw/main/logo.png',
-  logo: 'https://github.com/xrkffgg/ant-design-colorful/raw/main/logo.png',
+  favicon: 'https://avatars1.githubusercontent.com/u/73024040?s=200&v=4',
+  logo: 'https://avatars1.githubusercontent.com/u/73024040?s=200&v=4',
   outputPath: 'docs-dist',
   hash: true,
   base: '/ant-design-colorful/',
@@ -29,7 +29,7 @@ export default {
   navs: [
     { title: '介 绍', path: '/guide' },
     { title: '组 件', path: '/components' },
-    { title: 'GitHub', path: 'https://github.com/xrkffgg/ant-design-colorful' },
+    { title: 'GitHub', path: 'https://github.com/ant-design-colorful/ant-design-colorful' },
   ],
   extraBabelPlugins: [
     [
