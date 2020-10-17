@@ -1,5 +1,5 @@
 /**
- * desc: 多彩的文字显示。
+ * desc: 一些简单的 hover 效果。
  */
 
 import React from 'react';
@@ -16,24 +16,20 @@ export default () => (
     >
       春天的风
     </Button>
-    <Button
-      size="large"
-      type="text"
-      className="antd-colorful btn-up btn-text-summer"
-    >
+    <Button size="large" type="text" className="antd-colorful btn-border">
       夏天的雨
     </Button>
     <Button
       size="large"
       type="text"
-      className="antd-colorful btn-up btn-text-autumn"
+      className="antd-colorful btn-curl btn-text-autumn"
     >
       秋天的月
     </Button>
     <Button
       size="large"
       type="text"
-      className="antd-colorful btn-up btn-text-winter"
+      className="antd-colorful btn-flow btn-text-winter"
     >
       冬天的雪
     </Button>
