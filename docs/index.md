@@ -17,7 +17,7 @@ features:
   - icon: https://gw.alipayobjects.com/mdn/rms_05efff/afts/img/A*-3XMTrwP85wAAAAAAAAAAABkARQnAQ
     title: 绚丽多彩
     desc: 多姿多彩，点亮生活
-footer: Open-source MIT Licensed | Copyright © 2020-present<br />Powered by xrkffgg
+footer: Open-source MIT Licensed | Copyright © 2020-present<br />Powered by ant-design-colorful
 ---
 
 ## 🍭 简介
@@ -49,5 +49,5 @@ footer: Open-source MIT Licensed | Copyright © 2020-present<br />Powered by xrk
 
 非常欢迎你的意见，你可以通过以下方式
 
-- 通过 [Issue](https://github.com/xrkffgg/ant-design-colorful/issues) 报告 bug 或进行咨询。
-- 提交 [Pull Request](https://github.com/xrkffgg/ant-design-colorful/pulls) 改进 ant-design-colorful 的代码。
+- 通过 [Issue](https://github.com/ant-design-colorful/ant-design-colorful/issues) 报告 bug 或进行咨询。
+- 提交 [Pull Request](https://github.com/ant-design-colorful/ant-design-colorful/pulls) 改进 ant-design-colorful 的代码。
