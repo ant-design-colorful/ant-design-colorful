@@ -14,7 +14,7 @@ title: Button 按钮
 
 <code src="../../packages/button/ripple.tsx" />
 
-### 多彩文字
+### 交互效果
 
 <code src="../../packages/button/text.tsx" />
 

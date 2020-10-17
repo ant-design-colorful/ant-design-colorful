@@ -20,7 +20,7 @@ features:
 footer: Open-source MIT Licensed | Copyright © 2020-present<br />Powered by xrkffgg
 ---
 
-## 📍 使用
+## 🍭 简介
 
 以原生 ant-design 为基础，通过自定义 css 或 引入其他插件，实现组件的炫酷化、多彩化。
 
@@ -29,12 +29,12 @@ footer: Open-source MIT Licensed | Copyright © 2020-present<br />Powered by xrk
 正逐步构想并添加，如果你有好的想法建议，欢迎 PR ~
 
 - 通用
-  - Button
-    - 多彩背景
-    - 涟漪效果
-    - 多彩文字
-    - 键盘按键
-    - 图标动画
+  - [Button](/components/button)
+    - [多彩背景](/components/button#多彩背景)
+    - [涟漪效果](/components/button#涟漪效果)
+    - [交互效果](/components/button#交互效果)
+    - [键盘按键](/components/button#键盘按键)
+    - [图标动画](/components/button#图标动画)
 
 ## 🖥 浏览器兼容性
 

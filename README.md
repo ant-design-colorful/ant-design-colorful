@@ -40,7 +40,7 @@ https://xrkffgg.github.io/ant-design-colorful/
   - Button
     - 多彩背景
     - 涟漪效果
-    - 多彩文字
+    - 交互效果
     - 键盘按键
     - 图标动画
 
