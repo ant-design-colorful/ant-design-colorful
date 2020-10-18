@@ -11,7 +11,7 @@ export default {
     includes: ['docs'],
   },
   theme: {
-    '@c-primary': '#72a2de',
+    '@c-primary': '#1890ff',
   },
   menus: {
     '/guide': [
@@ -29,7 +29,10 @@ export default {
   navs: [
     { title: '介 绍', path: '/guide' },
     { title: '组 件', path: '/components' },
-    { title: 'GitHub', path: 'https://github.com/ant-design-colorful/ant-design-colorful' },
+    {
+      title: 'GitHub',
+      path: 'https://github.com/ant-design-colorful/ant-design-colorful',
+    },
   ],
   extraBabelPlugins: [
     [
