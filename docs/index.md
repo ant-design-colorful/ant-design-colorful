@@ -28,13 +28,16 @@ footer: Open-source MIT Licensed | Copyright © 2020-present<br />Powered by ant
 
 正逐步构想并添加，如果你有好的想法建议，欢迎 PR ~
 
-- 通用
-  - [Button](/components/button)
-    - [多彩背景](/components/button#多彩背景)
-    - [涟漪效果](/components/button#涟漪效果)
-    - [交互效果](/components/button#交互效果)
-    - [键盘按键](/components/button#键盘按键)
-    - [图标动画](/components/button#图标动画)
+- [Button 按钮](/components/button)
+  - [多彩背景](/components/button#多彩背景)
+  - [涟漪效果](/components/button#涟漪效果)
+  - [交互效果](/components/button#交互效果)
+  - [键盘按键](/components/button#键盘按键)
+  - [图标动画](/components/button#图标动画)
+- [Divider 分割线](/components/divider)
+  - [多彩颜色](/components/divider#多彩颜色)
+  - [类型扩展](/components/divider#类型扩展)
+  - [多重展示](/components/divider#多重展示)
 
 ## 🖥 浏览器兼容性
 
