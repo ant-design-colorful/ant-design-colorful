@@ -19,12 +19,6 @@ export default {
         children: ['guide/index', 'guide/how-to-use'],
       },
     ],
-    '/components': [
-      {
-        title: '通 用',
-        children: ['components/button'],
-      },
-    ],
   },
   navs: [
     { title: '介 绍', path: '/guide' },

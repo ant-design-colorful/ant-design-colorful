@@ -1,0 +1,45 @@
+@divider-color-primary: #1890ff;
+@divider-color-success: #46c93a;
+@divider-color-warning: #ff8200;
+@divider-color-danger: #ff4757;
+
+.antd-colorful.ant-divider {
+  &.divider-wave-primary {
+    .divider-type-wave(@divider-color-primary);
+  }
+
+  &.divider-wave-success {
+    .divider-type-wave(@divider-color-success);
+  }
+
+  &.divider-wave-warning {
+    .divider-type-wave(@divider-color-warning);
+  }
+
+  &.divider-wave-danger {
+    .divider-type-wave(@divider-color-danger);
+  }
+
+  .divider-type-wave(@mix-color) {
+    height: 8px;
+    background: radial-gradient(
+          circle at 10px -7px,
+          transparent 8px,
+          @mix-color 8px,
+          @mix-color 9px,
+          transparent 9px
+        )
+        repeat-x,
+      radial-gradient(
+          circle at 10px 27px,
+          transparent 8px,
+          @mix-color 8px,
+          @mix-color 9px,
+          transparent 9px
+        )
+        repeat-x;
+    background-position: -10px calc(100% + 16px), 0 calc(100% - 4px);
+    background-size: 20px 20px;
+    border-top: none;
+  }
+}
