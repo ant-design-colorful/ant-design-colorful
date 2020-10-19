@@ -10,19 +10,19 @@ hero:
 features:
   - icon: https://gw.alipayobjects.com/os/q/cms/images/k9ziitmp/13668549-b393-42a2-97c3-a6365ba87ac2_w96_h96.png
     title: 简单易用
-    desc: 在 ant-design 基础上进行封装，直接拿来就可以用
+    desc: 在 `antd` 基础上封装<br/> 即拿即用
   - icon: https://gw.alipayobjects.com/os/q/cms/images/k9ziik0f/487a2685-8f68-4c34-824f-e34c171d0dfd_w96_h96.png
     title: Ant Design
-    desc: 与 ant-design 写法保持一致
+    desc: 与 `antd` 写法一致<br/> 当前对应版本 `4.7.0`
   - icon: https://gw.alipayobjects.com/mdn/rms_05efff/afts/img/A*-3XMTrwP85wAAAAAAAAAAABkARQnAQ
     title: 绚丽多彩
-    desc: 多姿多彩，点亮生活
+    desc: 多姿多彩<br/> 点亮生活
 footer: Open-source MIT Licensed | Copyright © 2020-present<br />Powered by ant-design-colorful
 ---
 
 ## 🍭 简介
 
-以原生 ant-design 为基础，通过自定义 css 或 引入其他插件，实现组件的炫酷化、多彩化。
+以原生 `ant-design` 为基础，通过自定义 `css` 或 引入其他插件，实现组件的炫酷化、多彩化。
 
 ## 📐 组件看板
 

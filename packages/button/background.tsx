@@ -1,5 +1,5 @@
 /**
- * desc: 多彩的背景色。每种的 hover 略有不同哦~
+ * desc: 多彩的背景色。每种的 `hover` 略有不同哦~
  */
 
 import React from 'react';

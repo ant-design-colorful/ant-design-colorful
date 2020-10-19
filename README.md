@@ -12,9 +12,9 @@
 
 [![](https://img.shields.io/badge/based%20on-ant--design-%231890ff?style=flat-square)](https://github.com/ant-design/ant-design)
 [![](https://img.shields.io/badge/docs%20by-dumi-%239254de?style=flat-square)](https://github.com/umijs/dumi)
-[![](https://img.shields.io/github/contributors/ant-design-colorful/ant-design-colorful?style=flat-square)](https://github.com/ant-design-colorful/ant-design-colorful/graphs/contributors)
+[![](https://img.shields.io/github/contributors/ant-design-colorful/ant-design-colorful?style=flat-square&color=%23ffadd2)](https://github.com/ant-design-colorful/ant-design-colorful/graphs/contributors)
 ![](https://img.shields.io/github/last-commit/ant-design-colorful/ant-design-colorful?color=%2308979c&style=flat-square)
-![](https://img.shields.io/github/stars/ant-design-colorful/ant-design-colorful?style=flat-square)
+![](https://img.shields.io/github/stars/ant-design-colorful/ant-design-colorful?style=flat-square&color=%23ff7875)
 
 </div>
 

@@ -1,5 +1,5 @@
 /**
- * desc: 一些简单的 hover 效果。
+ * desc: 一些简单的 `hover` 效果。
  */
 
 import React from 'react';
