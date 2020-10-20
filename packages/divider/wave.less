@@ -1,23 +1,23 @@
-@divider-color-primary: #1890ff;
-@divider-color-success: #46c93a;
-@divider-color-warning: #ff8200;
-@divider-color-danger: #ff4757;
+@color-primary: #1890ff;
+@color-success: #46c93a;
+@color-warning: #ff8200;
+@color-danger: #ff4757;
 
 .antd-colorful.ant-divider {
   &.divider-wave-primary {
-    .divider-type-wave(@divider-color-primary);
+    .divider-type-wave(@color-primary);
   }
 
   &.divider-wave-success {
-    .divider-type-wave(@divider-color-success);
+    .divider-type-wave(@color-success);
   }
 
   &.divider-wave-warning {
-    .divider-type-wave(@divider-color-warning);
+    .divider-type-wave(@color-warning);
   }
 
   &.divider-wave-danger {
-    .divider-type-wave(@divider-color-danger);
+    .divider-type-wave(@color-danger);
   }
 
   .divider-type-wave(@mix-color) {

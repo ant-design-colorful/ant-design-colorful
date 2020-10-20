@@ -1,0 +1,29 @@
+@color-primary: #1890ff;
+@color-success: #46c93a;
+@color-warning: #ff8200;
+@color-danger: #ff4757;
+
+.antd-colorful.ant-breadcrumb {
+  .breadcrumb-color(@color) {
+    color: @color;
+    > span:last-child {
+      color: @color;
+      text-shadow: 0 0 5px #fff, 0 0 10px @color;
+    }
+  }
+
+  &.breadcrumb-color-primary {
+    .breadcrumb-color(@color-primary);
+  }
+
+  &.breadcrumb-color-success {
+    .breadcrumb-color(@color-success);
+  }
+
+  &.breadcrumb-color-danger {
+    .breadcrumb-color(@color-danger);
+    .ant-breadcrumb-separator {
+      color: @color-danger;
+    }
+  }
+}

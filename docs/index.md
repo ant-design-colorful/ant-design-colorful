@@ -28,6 +28,9 @@ footer: Open-source MIT Licensed | Copyright © 2020-present<br />Powered by ant
 
 正逐步构想并添加，如果你有好的想法建议，欢迎 PR ~
 
+- [Breadcrumb 面包屑](/components/breadcrumb)
+  - [多彩颜色](/components/breadcrumb#多彩颜色)
+  - [组件结合](/components/breadcrumb#组件结合)
 - [Button 按钮](/components/button)
   - [多彩背景](/components/button#多彩背景)
   - [涟漪效果](/components/button#涟漪效果)
