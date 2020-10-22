@@ -1,7 +1,7 @@
 ---
 name: New function 🌟
 about: New cute pets, needs, functions, suggestions. 新需求、功能、建议
-title: '[Feature] New function'
+title: '[feature] New feature'
 labels: '🌟 To do'
 assignees:
 ---

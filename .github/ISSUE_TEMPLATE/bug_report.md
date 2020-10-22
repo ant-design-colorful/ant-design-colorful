@@ -1,7 +1,7 @@
 ---
 name: Report Bug 🐛
 about: 报告 bug
-title: '[BUG] Report bug'
+title: '[bug] Report bug'
 labels: '🐛 bug'
 assignees:
 ---
