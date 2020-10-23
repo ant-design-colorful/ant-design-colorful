@@ -1,0 +1,51 @@
+@radio-prefix-cls: ~'ant-radio';
+@radio-inner-prefix-cls: ~'@{radio-prefix-cls}-inner';
+
+@color-primary: 24, 144, 255;
+@width: 32px;
+
+.antd-colorful {
+  &.radio-type-full {
+    .@{radio-prefix-cls}-checked .@{radio-inner-prefix-cls} {
+      background: rgb(@color-primary, 1);
+      box-shadow: 0 3px 12px 0 rgb(@color-primary, 0.4);
+    }
+  }
+  &.radio-type-background {
+    display: inline-flex;
+    line-height: @width;
+    .@{radio-prefix-cls} {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: @width;
+      height: @width;
+      &::before {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: block;
+        border-radius: 50%;
+        transform: scale3d(0, 0, 1);
+        opacity: 0.4;
+        transition: transform 0.22s cubic-bezier(0, 0, 0.2, 1) 0ms;
+        content: '';
+      }
+      &.@{radio-prefix-cls}-checked:hover::before {
+        background: rgb(@color-primary, 0.5);
+        transform: scale3d(1, 1, 1);
+      }
+      &:hover {
+        .@{radio-inner-prefix-cls} {
+          border-color: #d9d9d9;
+        }
+        &::before {
+          background-color: rgba(0, 0, 0, 0.2);
+          transform: scale3d(1, 1, 1);
+        }
+      }
+    }
+  }
+}

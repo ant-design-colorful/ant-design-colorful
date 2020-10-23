@@ -1,0 +1,94 @@
+// link: https://github.com/ant-design-colorful/ant-design-colorful/blob/main/packages/style/color/color.less
+@import '../style/color/colors.less';
+
+@radio-prefix-cls: ~'ant-radio';
+@radio-button-prefix-cls: ~'@{radio-prefix-cls}-button';
+@radio-inner-prefix-cls: ~'@{radio-prefix-cls}-inner';
+
+.antd-colorful {
+  &.@{radio-prefix-cls}-wrapper {
+    .make-color-classes(@i: length(@preset-colors)) when (@i > 0) {
+      .make-color-classes(@i - 1);
+      @color: extract(@preset-colors, @i);
+      @lightColor: '@{color}-1';
+      @darkColor: '@{color}-5';
+      &.radio-color-@{color} {
+        color: @@darkColor;
+        .@{radio-prefix-cls}-checked .@{radio-prefix-cls}-inner {
+          border-color: @@darkColor;
+        }
+        .@{radio-prefix-cls}-checked::after {
+          border: 1px solid @@darkColor;
+        }
+        .@{radio-prefix-cls}-inner::after {
+          background-color: @@darkColor;
+        }
+        .@{radio-prefix-cls}:hover .@{radio-inner-prefix-cls},
+        .@{radio-prefix-cls}-wrapper:hover,
+        .@{radio-prefix-cls}-input:focus + .@{radio-inner-prefix-cls} {
+          border-color: @@darkColor;
+        }
+        .@{radio-prefix-cls}-input:focus + .@{radio-inner-prefix-cls} {
+          box-shadow: 0 0 0 3px @@lightColor;
+        }
+      }
+    }
+    .make-color-classes();
+  }
+  &.@{radio-button-prefix-cls}-wrapper {
+    .make-button-color-classes(@i: length(@preset-colors)) when (@i > 0) {
+      .make-button-color-classes(@i - 1);
+      @color: extract(@preset-colors, @i);
+      @lightColor: '@{color}-4';
+      @darkColor: '@{color}-5';
+      @darkdarkColor: '@{color}-6';
+      &.radio-color-@{color} {
+        &:hover {
+          color: @@darkColor;
+        }
+        &:focus-within {
+          box-shadow: 0 0 0 3px fade(@@darkColor, 8%);
+        }
+        &.@{radio-button-prefix-cls}-wrapper-checked:not(.@{radio-button-prefix-cls}-wrapper-disabled) {
+          z-index: 1;
+          color: @@darkColor;
+          border-color: @@darkColor;
+          &::before {
+            background-color: @@darkColor;
+          }
+          &:hover {
+            color: @@lightColor;
+            border-color: @@lightColor;
+            &::before {
+              background-color: @@lightColor;
+            }
+            .@{radio-prefix-cls}-group-solid & {
+              background: @@lightColor;
+              border-color: @@lightColor;
+            }
+          }
+          &:active {
+            color: @@darkdarkColor;
+            border-color: @@darkdarkColor;
+            &::before {
+              background-color: @@darkdarkColor;
+            }
+            .@{radio-prefix-cls}-group-solid & {
+              background: @@darkdarkColor;
+              border-color: @@darkdarkColor;
+            }
+          }
+          &:focus-within {
+            box-shadow: 0 0 0 3px fade(@@darkColor, 8%);
+          }
+          .@{radio-prefix-cls}-group-solid & {
+            color: #fff;
+            background: @@darkColor;
+            border-color: @@darkColor;
+          }
+        }
+      }
+    }
+    .make-button-color-classes();
+  }
+}
