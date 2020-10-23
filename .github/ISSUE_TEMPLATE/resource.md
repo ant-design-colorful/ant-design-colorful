@@ -1,6 +1,6 @@
 ---
 name: 'Reference resources 💎'
-about: 参 考 💎
+about: 资源参考
 title: '[resource] xxx'
 labels: '💎 resource'
 assignees: ''

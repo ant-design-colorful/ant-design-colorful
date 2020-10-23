@@ -1,6 +1,6 @@
 ---
 name: 'Question or need help ❓'
-about: 疑问或需要帮助 ❓
+about: 疑问或需要帮助
 title: '[question] Help'
 labels: '🧐 question'
 assignees: ''
