@@ -1,5 +1,5 @@
-// link: https://github.com/ant-design-colorful/ant-design-colorful/blob/main/packages/style/color/color.less
-@import '../style/color/colors.less';
+// link: https://github.com/ant-design-colorful/ant-design-colorful/blob/main/packages/style/color.less
+@import '../style/colors.less';
 
 @radio-prefix-cls: ~'ant-radio';
 @radio-button-prefix-cls: ~'@{radio-prefix-cls}-button';
@@ -10,10 +10,11 @@
     .make-color-classes(@i: length(@preset-colors)) when (@i > 0) {
       .make-color-classes(@i - 1);
       @color: extract(@preset-colors, @i);
+      @baseColor: '@{color}-base';
       @lightColor: '@{color}-1';
       @darkColor: '@{color}-5';
       &.radio-color-@{color} {
-        color: @@darkColor;
+        color: @@baseColor;
         .@{radio-prefix-cls}-checked .@{radio-prefix-cls}-inner {
           border-color: @@darkColor;
         }
@@ -39,9 +40,9 @@
     .make-button-color-classes(@i: length(@preset-colors)) when (@i > 0) {
       .make-button-color-classes(@i - 1);
       @color: extract(@preset-colors, @i);
+      @baseColor: '@{color}-base';
       @lightColor: '@{color}-4';
       @darkColor: '@{color}-5';
-      @darkdarkColor: '@{color}-6';
       &.radio-color-@{color} {
         &:hover {
           color: @@darkColor;
@@ -68,14 +69,14 @@
             }
           }
           &:active {
-            color: @@darkdarkColor;
-            border-color: @@darkdarkColor;
+            color: @@baseColor;
+            border-color: @@baseColor;
             &::before {
-              background-color: @@darkdarkColor;
+              background-color: @@baseColor;
             }
             .@{radio-prefix-cls}-group-solid & {
-              background: @@darkdarkColor;
-              border-color: @@darkdarkColor;
+              background: @@baseColor;
+              border-color: @@baseColor;
             }
           }
           &:focus-within {
