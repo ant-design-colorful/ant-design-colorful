@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "antd": "^4.7.0",
-    "react": "^16.12.0",
+    "react": "^17.0.1",
     "react-ripples": "^2.2.1"
   },
   "devDependencies": {
