@@ -6,6 +6,7 @@
     "start": "dumi dev",
     "build": "father-build",
     "docs:build": "dumi build",
+    "docs-dev:build": "UMI_ENV=dev dumi build",
     "docs:deploy": "gh-pages -d docs-dist",
     "deploy": "npm run docs:build && npm run docs:deploy",
     "release": "npm run build && npm publish",
