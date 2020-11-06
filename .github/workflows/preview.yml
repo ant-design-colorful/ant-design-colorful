@@ -13,6 +13,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           build: |
             yarn
-            yarn docs:build
+            yarn docs-dev:build
           dist: docs-dist
           teardown: 'true'
