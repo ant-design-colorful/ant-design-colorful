@@ -34,7 +34,7 @@ https://ant-design-colorful.github.io/ant-design-colorful/
 
 ## 📐 组件看板
 
-正逐步构想并添加，如果你有好的想法建议，欢迎 PR ~
+正逐步构想并添加，如果你有好的想法和建议，欢迎 PR ~
 
 - Breadcrumb 面包屑
   - 多彩颜色
