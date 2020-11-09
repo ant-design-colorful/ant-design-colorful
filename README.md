@@ -18,7 +18,7 @@
 
 </div>
 
-## 📒 网站
+## 📒 预览
 
 https://ant-design-colorful.github.io/ant-design-colorful/
 
