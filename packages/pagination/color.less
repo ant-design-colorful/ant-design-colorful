@@ -1,0 +1,27 @@
+@pagination-prefix-cls: ~'ant-pagination';
+
+.antd-colorful.@{pagination-prefix-cls} {
+  &.pagination-colorful {
+    & > .@{pagination-prefix-cls}-item:nth-child(9n + 2) {
+      filter: hue-rotate(45deg);
+    }
+    & > .@{pagination-prefix-cls}-item:nth-child(9n + 3) {
+      filter: hue-rotate(90deg);
+    }
+    & > .@{pagination-prefix-cls}-item:nth-child(9n + 4) {
+      filter: hue-rotate(135deg);
+    }
+    & > .@{pagination-prefix-cls}-item:nth-child(9n + 5) {
+      filter: hue-rotate(180deg);
+    }
+    & > .@{pagination-prefix-cls}-item:nth-child(9n + 6) {
+      filter: hue-rotate(225deg);
+    }
+    & > .@{pagination-prefix-cls}-item:nth-child(9n + 7) {
+      filter: hue-rotate(270deg);
+    }
+    & > .@{pagination-prefix-cls}-item:nth-child(9n + 8) {
+      filter: hue-rotate(315deg);
+    }
+  }
+}
