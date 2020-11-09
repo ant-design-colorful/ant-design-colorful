@@ -49,6 +49,10 @@ https://ant-design-colorful.github.io/ant-design-colorful/
   - 多彩颜色
   - 类型扩展
   - 多重展示
+- Pagination 分页
+  - 多彩颜色
+  - 简洁实心
+  - 基础拼接
 - Radio 单选框
   - 多彩颜色
   - 交互效果

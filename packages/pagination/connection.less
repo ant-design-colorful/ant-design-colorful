@@ -1,0 +1,103 @@
+@pagination-prefix-cls: ~'ant-pagination';
+
+.antd-colorful.@{pagination-prefix-cls} {
+  &.pagination-connection {
+    .@{pagination-prefix-cls}-item {
+      width: 36px;
+      margin-right: 0;
+      padding: 0 2px;
+      line-height: 32px;
+      background-color: #f0f0f0;
+      border-width: 0;
+      border-radius: 0;
+
+      a {
+        padding: 0;
+        border-radius: 8px;
+      }
+
+      &-active {
+        a {
+          color: #fff;
+          font-weight: normal;
+          background-color: #1890ff;
+          box-shadow: 0 0 20px 0 fadeout(#1890ff, 50%);
+          transform: scale(1.1);
+          transition: all 0.25s ease;
+        }
+      }
+
+      &-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: fadeout(#000, 40%);
+        background-color: #f0f0f0;
+        border-width: 0;
+        border-radius: 50%;
+
+        &:hover:not([disabled]) {
+          color: #fff;
+          background-color: #1890ff;
+        }
+
+        &[disabled] {
+          opacity: 0.5;
+        }
+      }
+
+      &-1 {
+        width: 40px;
+        padding: 0 2px 0 6px;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+      }
+
+      &:nth-last-child(2) {
+        width: 40px;
+        padding: 0 6px 0 2px;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+      }
+    }
+
+    .@{pagination-prefix-cls}-next {
+      margin-left: 8px;
+    }
+
+    .@{pagination-prefix-cls}-jump {
+      &-prev,
+      &-next {
+        margin-right: 0;
+        .@{pagination-prefix-cls}-item-link {
+          border-radius: 0;
+
+          &:hover {
+            color: #1890ff;
+            background-color: #f0f0f0;
+          }
+        }
+      }
+
+      &-prev .@{pagination-prefix-cls}-item-ellipsis {
+        margin-left: -6px;
+      }
+
+      &-next .@{pagination-prefix-cls}-item-ellipsis {
+        margin-left: -6px;
+      }
+    }
+
+    &.color-purple {
+      filter: hue-rotate(45deg);
+    }
+
+    &.color-magenta {
+      filter: hue-rotate(135deg);
+    }
+
+    &.color-green {
+      filter: hue-rotate(270deg);
+    }
+  }
+}

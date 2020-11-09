@@ -13,7 +13,7 @@ features:
     desc: 在 `antd` 基础上封装<br/> 即拿即用
   - icon: https://gw.alipayobjects.com/os/q/cms/images/k9ziik0f/487a2685-8f68-4c34-824f-e34c171d0dfd_w96_h96.png
     title: Ant Design
-    desc: 与 `antd` 写法一致<br/> 当前对应版本 `4.7.0`
+    desc: 与 `antd` 写法一致<br/> 当前对应版本 `4.8.0`
   - icon: https://gw.alipayobjects.com/mdn/rms_05efff/afts/img/A*-3XMTrwP85wAAAAAAAAAAABkARQnAQ
     title: 绚丽多彩
     desc: 多姿多彩<br/> 点亮生活
@@ -25,8 +25,6 @@ footer: Open-source MIT Licensed | Copyright © 2020-present<br />Powered by ant
 以原生 `ant-design` 为基础，通过自定义 `css` 或 引入其他插件，实现组件的炫酷化、多彩化。
 
 ## 📐 组件看板
-
-正逐步构想并添加，如果你有好的想法建议，欢迎 PR ~
 
 - [Breadcrumb 面包屑](/components/breadcrumb)
   - [多彩颜色](/components/breadcrumb#多彩颜色)
@@ -41,6 +39,10 @@ footer: Open-source MIT Licensed | Copyright © 2020-present<br />Powered by ant
   - [多彩颜色](/components/divider#多彩颜色)
   - [类型扩展](/components/divider#类型扩展)
   - [多重展示](/components/divider#多重展示)
+- [Pagination 分页](/components/pagination)
+  - [多彩颜色](/components/pagination#多彩颜色)
+  - [简洁实心](/components/pagination#简洁实心)
+  - [基础拼接](/components/pagination#基础拼接)
 - [Radio 单选框](/components/radio)
   - [多彩颜色](/components/radio#多彩颜色)
   - [交互效果](/components/radio#交互效果)

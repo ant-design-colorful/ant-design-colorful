@@ -16,3 +16,5 @@ nav:
 2. 可参照 `css` 随意搭配 或 配置自己独特配色。
 
 3. 由于引入全量 `antd` 样式，Demo 中 `less` 有些是对原有样式进行覆盖。
+
+4. 由于个人思想、时间局限，若您有好的想法建议，欢迎 [PR](https://github.com/ant-design-colorful/ant-design-colorful/pulls) ~
