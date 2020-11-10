@@ -1,20 +1,16 @@
 @pagination-prefix-cls: ~'ant-pagination';
 
-@color-primary: #1890ff;
-@color-warning: #ff8200;
-@color-danger: #ff4757;
-
 .antd-colorful.@{pagination-prefix-cls} {
   &.pagination-solid.mini {
-    .custom-paginations-solid-mini(@color-primary);
+    .custom-paginations-solid-mini(#1890ff);
   }
 
   &.pagination-solid.mini.color-warning {
-    .custom-paginations-solid-mini(@color-warning);
+    .custom-paginations-solid-mini(#ff8200);
   }
 
   &.pagination-solid.mini.color-danger {
-    .custom-paginations-solid-mini(@color-danger);
+    .custom-paginations-solid-mini(#ff4757);
   }
 
   .custom-paginations-solid-mini(@color) {

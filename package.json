@@ -1,10 +1,10 @@
 {
-  "private": true,
-  "name": "ant-design-colorful",
-  "version": "1.0.0",
+  "private": false,
+  "name": "antd-colorful",
+  "version": "0.0.2",
   "scripts": {
     "start": "dumi dev",
-    "build": "father-build",
+    "build": "lessc index.less index.css -x",
     "docs:build": "dumi build",
     "docs-dev:build": "UMI_ENV=dev dumi build",
     "docs:deploy": "gh-pages -d docs-dist",
@@ -15,9 +15,27 @@
     "test": "umi-test",
     "test:coverage": "umi-test --coverage"
   },
-  "main": "dist/index.js",
-  "module": "dist/index.esm.js",
-  "typings": "dist/index.d.ts",
+  "main": "index.css",
+  "repository": "git://github.com/ant-design-colorful/ant-design-colorful.git",
+  "author": "ant-design-colorful",
+  "homepage": "https://ant-design-colorful.github.io/ant-design-colorful/",
+  "keywords": [
+    "antd",
+    "ant",
+    "design",
+    "components",
+    "react",
+    "ui"
+  ],
+  "files": [
+    "index.css",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ant-design-colorful/ant-design-colorful/issues"
+  },
   "gitHooks": {
     "pre-commit": "lint-staged"
   },
@@ -39,6 +57,7 @@
     "dumi": "^1.0.10",
     "father-build": "^1.17.2",
     "gh-pages": "^3.0.0",
+    "less": "^3.12.2",
     "lint-staged": "^10.0.7",
     "prettier": "^2.1.2",
     "stylelint": "^13.0.0",

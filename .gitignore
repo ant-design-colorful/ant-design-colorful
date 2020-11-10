@@ -11,6 +11,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # Private
+index.css
 
 # misc
 .DS_Store
