@@ -38,7 +38,6 @@ https://ant-design-colorful.github.io/ant-design-colorful/
 npm i antd-colorful
 ## or
 yarn add antd-colorful
-
 ```
 
 ### 使用

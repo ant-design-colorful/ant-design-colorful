@@ -13,7 +13,6 @@ nav:
 npm i antd-colorful
 ## or
 yarn add antd-colorful
-
 ```
 
 ### 使用
