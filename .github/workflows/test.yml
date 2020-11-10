@@ -15,5 +15,8 @@ jobs:
       - name: lint
         run: yarn lint:style
 
-      - name: build
+      - name: docs
         run: yarn docs:build
+      
+      - name: build
+        run: yarn build
