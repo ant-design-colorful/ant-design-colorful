@@ -13,6 +13,10 @@ export default {
   theme: {
     '@c-primary': '#1890ff',
   },
+  locales: [
+    ['zh-CN', '中文'],
+    ['en-US', 'English'],
+  ],
   menus: {
     '/guide': [
       {

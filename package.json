@@ -16,7 +16,11 @@
     "test:coverage": "umi-test --coverage"
   },
   "main": "index.css",
-  "repository": "git://github.com/ant-design-colorful/ant-design-colorful.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ant-design-colorful/ant-design-colorful",
+    "branch": "main"
+  },
   "author": "ant-design-colorful",
   "homepage": "https://ant-design-colorful.github.io/ant-design-colorful/",
   "keywords": [
@@ -54,7 +58,7 @@
   },
   "devDependencies": {
     "@umijs/test": "^3.0.5",
-    "dumi": "^1.0.10",
+    "dumi": "^1.1.0-rc.2",
     "father-build": "^1.17.2",
     "gh-pages": "^3.0.0",
     "less": "^3.12.2",
