@@ -61,7 +61,7 @@
     "dumi": "^1.1.0-rc.2",
     "father-build": "^1.17.2",
     "gh-pages": "^3.0.0",
-    "less": "^3.12.2",
+    "less": "^4.0.0",
     "lint-staged": "^10.0.7",
     "prettier": "^2.1.2",
     "stylelint": "^13.0.0",
