@@ -4,7 +4,7 @@
   </a>
 </p>
 
-<h1 align="center">ant-design-colorful</h1>
+<h1 align="center">ant-design-colorful2</h1>
 
 <div align="center">
 
