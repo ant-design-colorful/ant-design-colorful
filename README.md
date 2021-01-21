@@ -8,7 +8,7 @@
 
 <div align="center">
 
-以 ant-design 为基础衍生的多彩组件
+以 ant-design 为基础衍生的多彩组件2
 
 [![](https://img.shields.io/badge/based%20on-ant--design-%231890ff?style=flat-square)](https://github.com/ant-design/ant-design)
 [![](https://img.shields.io/badge/docs%20by-dumi-%239254de?style=flat-square)](https://github.com/umijs/dumi)
