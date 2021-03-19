@@ -7,6 +7,8 @@ export default {
   hash: true,
   base: '/ant-design-colorful/',
   publicPath: '/ant-design-colorful/',
+  exportStatic: {},
+  ssr: {},
   resolve: {
     includes: ['docs'],
   },
