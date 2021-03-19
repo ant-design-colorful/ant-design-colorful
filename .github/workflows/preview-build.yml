@@ -16,7 +16,7 @@ jobs:
       - name: build
         run: |
           yarn
-          yarn doc:build
+          yarn docs:build
       
       - run: |
           zip -r dist.zip docs-dist
